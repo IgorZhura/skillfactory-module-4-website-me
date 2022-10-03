@@ -1,0 +1,73 @@
+@font-face {
+	src: url('../fonts/SourceSerifPro-Regular');
+font-family: "Source Serif Pro Regular";
+}
+
+@font-face {
+	src: url('../fonts/SourceSerifPro-Bold');
+font-family: "Source Serif Pro Bold";
+}
+
+@font-face {
+	src: url('../fonts/SourceSerifPro-Italic');
+font-family: "Source Serif Pro Italic";
+}
+@font-face {
+	src: url('../fonts/OpenSans-Regular');
+font-family: "OpenSans Regular";
+}
+
+@font-face {
+	src: url('../fonts/OpenSans-Bold');
+font-family: "OpenSans Bold";
+}
+
+@font-face {
+	src: url('../fonts/OpenSans-Italic');
+font-family: "OpenSans Italic";
+}
+body
+{
+	font-family: "OpenSans Regular", Helvetica, Arial, sans-serif;
+}
+h1 
+{
+	font-family: "SourceSerifPro Regular252525", serif;
+}
+h2 
+{
+	font-family: "SourceSerifPro Bold", serif;
+}
+.navbar 
+{
+	box-shadow: 5px 5px 10px grey;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+a[href="#Myself"] {background: red; margin-left: 20px; margin-right: 20px;}
+a[href="#Education"] {background: orange; margin-left: 20px; margin-right: 20px;}
+a[href="#Experience"] {background: olive; margin-left: 20px; margin-right: 20px;}
+a[href="#Hobby"] {background: gold; margin-left: 20px; margin-right: 20px;}
+a[href="#Myway"] {background: green;margin-left: 20px; margin-right: 20px;}
+a:hover {background: white;}
+h2:hover {background: purple;}
+img {
+	width: 300px;
+-webkit-transition: width 2s; /* Safari */
+    transition: width 2s;
+}
+img:hover {width: 400px;}
+.img-wrapper {
+				padding: 5px 480px; 
+						border-width: thin;
+border-style: solid;
+border-color: black;
+margin: 10px;
+display: flex;
+flex-direction: row;
+}
+.prof-text {
+	color: gold;
+}
